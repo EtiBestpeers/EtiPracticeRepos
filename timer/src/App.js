@@ -1,13 +1,25 @@
+import logo from './logo.svg';
 import './App.css';
-import CountDownTimer from './Component/CountDownTimer';
+import Timer from './Timer'
+import React, { Component } from 'react'
+
 
 function App() {
+  const [seconds, setSeconds] = React.useState(10);
 
-  const hoursMinSecs = {hours:1, minutes: 20, seconds: 40}
-  
+  React.useEffect(() => {
+    if (seconds > 0) {
+      setTimeout(() => setSeconds(seconds - 1), 1000);
+    } else {
+      setSeconds('BOOOOM!');
+    }
+  });
+
   return (
     <div className="App">
-        <CountDownTimer hoursMinSecs={hoursMinSecs}/>
+      <div>
+        {seconds}
+      </div>
     </div>
   );
 }
