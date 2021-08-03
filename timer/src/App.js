@@ -45,7 +45,7 @@ const App = () => {
                 <div>
                     <span className="mdi mdi-calender-clock timer-icon"></span>
                     <h2>Countdown Timer</h2>
-                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open</p>
+                    <p>Timer Assignment</p>
                 </div>
                 <div>
                 <section>

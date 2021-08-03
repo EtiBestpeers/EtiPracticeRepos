@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/EtiBestpeers/EtiPracticeRepos/issues"
   },
-  "homepage": "https://github.com/EtiBestpeers/EtiPracticeRepos#readme"
+  "homepage": "https://github.com/EtiBestpeers/EtiPracticeRepos#readme",
+  "dependencies": {
+    "styled-components": "^5.3.0"
+  }
 }
